@@ -1,0 +1,16 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<com.google.android.youtube.player.YouTubePlayerView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_centerVertical="true"
+    android:id="@+id/youtube1">
+</com.google.android.youtube.player.YouTubePlayerView>
+</RelativeLayout>

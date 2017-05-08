@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "564290729145",
+    "firebase_url": "https://signup1-f6846.firebaseio.com",
+    "project_id": "signup1-f6846",
+    "storage_bucket": "signup1-f6846.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564290729145:android:8e7c4518d44ade57",
+        "android_client_info": {
+          "package_name": "com.example.amit.workoutdocent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564290729145-9mec28a725ilg09qffqo4v8luv6388us.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC18urlFAV70xW45VKVjOV-s9L0P0boQD0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

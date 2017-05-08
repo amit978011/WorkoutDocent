@@ -1,0 +1,12 @@
+
+<resources>
+    <color name="colorPrimary">#004646</color>
+    <color name="colorPrimaryDark">#004646</color>
+    <color name="colorAccent">#de6262</color>
+    <color name="Transparent80">#80000000</color>
+    <color name="white">#ffffff</color>
+    <color name="button_pressed">#004646</color>
+    <color name="button_focused">#675479</color>
+    <color name="orgg">#E26962</color>
+
+</resources>

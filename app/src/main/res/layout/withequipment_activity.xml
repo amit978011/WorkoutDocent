@@ -1,0 +1,105 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parentlayout">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/child">
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/tol"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+   <ViewFlipper
+       android:layout_width="match_parent"
+       android:layout_height="250dp"
+       android:id="@+id/flipper"
+       android:layout_below="@+id/tol"
+       android:flipInterval="1500"
+       android:autoStart="true"
+       >
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:src="@drawable/bodybuilder"
+    android:scaleType="fitXY"/>
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="250dp"
+android:src="@drawable/bicep2"
+           android:scaleType="fitXY"/>
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="250dp"
+           android:src="@drawable/bodybuildergirl1"
+           android:scaleType="fitXY"/>
+   </ViewFlipper>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttons"
+        android:layout_below="@+id/flipper">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:onClick="male"
+        android:background="#de6262"
+        android:id="@+id/maleButton"/>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#000000"/>
+
+        <Button
+            android:background="#de6262"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/femalebutton"
+            android:onClick="female"
+            android:text="Female"
+            />
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/food"
+        android:background="#004646"
+        android:id="@+id/fragment_for_male_or_female"
+        android:layout_below="@+id/buttons">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Select Gender"
+    android:textColor="#aae9dd"
+    android:textStyle="italic"
+    android:textSize="30dp"
+    android:layout_centerInParent="true"
+    />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nutrition for  Muscle"
+        android:id="@+id/food"
+        android:background="#de6262"
+        android:layout_alignParentBottom="true"
+        android:onClick="foodwithequipment"
+
+        />
+    </RelativeLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Take photo"/>
+        <item
+            android:id="@+id/Share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="share" />
+        <item
+            android:id="@+id/video"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Video" />
+        <item
+            android:id="@+id/nutrition"
+            android:icon="@drawable/ic_local_florist_black_24dp"
+            android:title="Nutrition for Muscle" />
+        <item
+            android:id="@+id/nav_gym"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="Nearest gym" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Sign out" />
+
+    </group>
+
+
+
+
+</menu>

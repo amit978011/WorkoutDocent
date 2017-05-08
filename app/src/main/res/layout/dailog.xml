@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#ffffff">
+<TextView
+    android:background="#006646"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/malebeginner"
+    android:textColor="#ffffff"
+    android:textSize="25dp"
+    android:text="Male Beginner"
+    android:gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ffffff"/>
+    <TextView
+        android:background="#006646"
+        android:id="@+id/femalebeginner"
+        android:text="Female Beginner"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ffffff"/>
+    <TextView
+        android:background="#006646"
+        android:layout_width="match_parent"
+        android:text="male Bodybuilder"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:id="@+id/malebodybuilder"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ffffff"/>
+    <TextView
+        android:background="#006646"
+        android:layout_width="match_parent"
+        android:text="Female Bodybuilder"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:id="@+id/femalebodybuilder"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+</LinearLayout>

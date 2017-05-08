@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004646">
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:background="@android:drawable/alert_light_frame">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beginner"
+        android:textSize="20sp"
+        android:id="@+id/button_for_beginerin_female"
+        android:background="#de6262"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/button_for_beginerin_female"
+            android:id="@+id/view"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bodybuilder"
+            android:textSize="20sp"
+
+            android:layout_below="@+id/view"
+            android:id="@+id/button_for_bodybuilder_female"
+            android:background="#de6262"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"/>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

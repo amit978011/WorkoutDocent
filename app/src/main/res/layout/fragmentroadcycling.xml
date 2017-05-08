@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragmentroadcycling"
+    android:background="#765">
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolscycling"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolscycling"
+            >
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/webview_cycling"
+
+                >
+
+
+            </WebView>
+
+
+
+            <ToggleButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/btn_cycling_nvrdob4ride"
+
+                android:layout_below="@+id/webview_cycling"
+                android:textColor="#000000"
+                android:background="#FFB155"
+
+
+                />
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/webview_cycling_nvrdob4riding"
+                android:layout_below="@+id/btn_cycling_nvrdob4ride"
+
+                >
+
+
+            </WebView>
+
+
+
+
+
+
+            <ToggleButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/btn_cycling_headphone"
+                android:text="Should You Ride With Headphones?"
+                android:layout_below="@+id/webview_cycling_nvrdob4riding"
+                android:textColor="#000000"
+                android:background="#1DA1F2"
+
+
+                />
+
+
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/webview_cycling_headphone"
+                android:layout_below="@id/btn_cycling_headphone"
+
+                >
+
+
+            </WebView>
+        </RelativeLayout>
+
+
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

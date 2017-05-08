@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar"/>
+    <RelativeLayout
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="150dp"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/one"
+            android:background="@android:drawable/alert_light_frame">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Chest Exercise"
+                android:id="@+id/chestexercise"
+                android:background="#de6663"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/three"
+            android:layout_below="@+id/one"
+            android:background="@android:drawable/alert_light_frame">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Shoulder Exercise"
+                android:id="@+id/shoulderexercise"
+                android:background="#de6663"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/five"
+            android:layout_below="@+id/three"
+            android:background="@android:drawable/alert_light_frame">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Abs Exercise"
+                android:id="@+id/absexercise"
+                android:background="#de6663"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

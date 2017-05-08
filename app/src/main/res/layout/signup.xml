@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup">
+<include
+    layout="@layout/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="60dp">
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+           android:gravity="center_horizontal"
+        android:id="@+id/tagline"
+        android:text="Start where you are"
+        android:textStyle="bold"
+        android:textColor="#004646"
+        android:textSize="35dp"
+        />
+       <TextView
+           android:textStyle="bold"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Use what you have"
+           android:layout_below="@+id/tagline"
+           android:textSize="32dp"
+           android:id="@+id/tagline1"
+           android:gravity="center_horizontal"
+           android:textColor="#004646"/>
+       <TextView
+           android:textStyle="bold"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Do what you can"
+           android:gravity="center_horizontal"
+           android:textSize="29dp"
+           android:layout_below="@+id/tagline1"
+           android:textColor="#004646"/>
+   </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupdata"
+        android:layout_centerVertical="true"
+        android:background="@android:drawable/alert_light_frame"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Enter your Email"
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/email"
+            android:id="@+id/vi1"
+            android:background="#D3D3D3"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:id="@+id/password"
+            android:layout_below="@+id/vi1"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D3D3D3"
+            android:layout_below="@+id/password"
+            android:id="@+id/vi2"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Confirm Password"
+            android:id="@+id/confirmpassword"
+            android:layout_below="@+id/password"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signupdata"
+        android:layout_alignParentRight="true"
+        android:background="@android:drawable/alert_light_frame">
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Sign_up"
+        android:textColor="#ffffff"
+        android:background="#306f13"
+        android:textSize="20sp"
+        android:id="@+id/signup"
+
+
+        android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+</RelativeLayout>

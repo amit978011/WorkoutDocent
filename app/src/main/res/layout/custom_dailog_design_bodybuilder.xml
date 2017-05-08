@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/custom_dailog_design_bodybuilderid"
+    android:background="#3D1A14">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/layout_monday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:padding="20dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:text="MONDAY"
+                android:id="@+id/bldrmonday"
+                android:textColor="#ffffff"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/layout_tuesday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:padding="20dp"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:text="TUESDAY"
+                android:id="@+id/bldrtuesday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+        <View
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/layout_wednesday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#ffffff"
+                android:padding="20dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:text="WEDNESDAY"
+                android:id="@+id/bldrwednesday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+        <View
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_thursday"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="20dp"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:text="THURSDAY"
+            android:id="@+id/bldrthursday"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff" />
+    <LinearLayout
+        android:id="@+id/layout_friday"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="20dp"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:text="FRIDAY"
+            android:id="@+id/bldrfriday"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff" />
+    <LinearLayout
+        android:id="@+id/layout_saturday"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="20dp"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:text="SATURDAY"
+            android:id="@+id/bldrsaturday"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

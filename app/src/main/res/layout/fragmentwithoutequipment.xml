@@ -1,0 +1,56 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/withoutequipmentfragment"
+    >
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/tol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:flipInterval="1500"
+        android:autoStart="true"
+        android:id="@+id/vf"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/running"
+            android:scaleType="fitXY"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/walking"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+android:src="@drawable/exercise"
+            android:scaleType="fitXY"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/cycling"
+            android:scaleType="fitXY"/>
+
+    </ViewFlipper>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#004646"
+        />
+
+
+    <ListView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lstviewwithoutequipment"></ListView>
+</LinearLayout>
